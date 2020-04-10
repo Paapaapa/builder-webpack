@@ -10,10 +10,10 @@ chche:
 node_js: stable
 
 install:
-  - npm install -D
+  - npm install
   - cd ./test/smoke/template
-  - npm install -D
+  - npm install
   - cd ../../../
 
 scripts:
-  - npm test
+  - npm run test

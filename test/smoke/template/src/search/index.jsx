@@ -2,7 +2,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import './search.less';
-import logoSmall from '../img/logo-16x16.png';
 
 class Search extends React.Component {
   constructor(...rest) {
@@ -28,7 +27,6 @@ class Search extends React.Component {
         <p className="p-text">
           明月几时有，自己抬头瞅
         </p>
-        <img src={logoSmall} alt="logo-small" />
         <div>
           {Text ? <Text /> : null}
         </div>
