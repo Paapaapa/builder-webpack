@@ -1,16 +1,17 @@
 {
-  "name": "build-webpack",
+  "name": "builder-webpack-learn-version",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install": "npm install && cd ./test/smoke/template && npm install && cd ../../../",
     "eslint": "eslint --fix ./lib",
     "test": "nyc node_modules/.bin/_mocha"
   },
   "keywords": [
     "webpack"
   ],
-  "author": "",
+  "author": "yanan.zhang",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.9.0",
